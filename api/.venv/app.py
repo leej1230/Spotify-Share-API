@@ -5,7 +5,8 @@ import requests
 app = Flask(__name__)
 cors = CORS(app)
 
-token = 'BQB1eU42YJ2l_h9LWKy_oYaPCcSeZKzuLPB6dHm-OlAFiHi2bl6_S9YO_A1QVZGoXSibEla_v3QxBt4viMpmFZsfJboMp9zk1Oikl4AWkQ_bcGcEREVh7wDFnA1JjEdlKWZ1zQNv91rRt0jo4S7UmSA0EsLS-YszddG-MY3ExSse89hWfNUoLw'
+# Your token
+token = ''
 
 def ms_conversion(millis,min):
     seconds=(millis/1000)%60
